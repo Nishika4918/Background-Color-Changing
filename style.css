@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+}
+.container1{
+    background-color: brown;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 30px;
+}
+.container2{
+        width: 100%;
+        height: 40px;
+        text-align: left;
+        background-color: darkkhaki;
+        padding-bottom: 17px;
+    
+}
+h3{
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    background: none;
+    height: 100%;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 10px;
+    color: black;
+    background-color: white;
+    padding: 4px 15px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: gray
+}
+.input{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 200px;
+        padding: 8px;
+        margin: 11px auto;
+        border: 2px solid black;
+        font-size: 15px;
+        border-radius: 10px;
+}
+.container3{
+    display: inline-block;
+    float: right;
+    width: 25%;
+    height: 36px;
+    justify-content: space-around;
+    display: flex;
+    background-color: white;
+    padding: 10px;
+}
+#one{
+    color: #FF7F50;
+    flex: 1;
+    background-color:#FF7F50 ; 
+}
+#two{
+    color: #7FFF00;
+    flex: 1;
+    background-color:#7FFF00 ; 
+}
+#three{
+    color: #DC143C;
+    flex: 1;
+    background-color:#DC143C; 
+}
+#four{
+    color: #483D8B;
+    flex: 1;
+    background-color:#483D8B; 
+}
+#five{
+    color: #DAA520;
+    flex: 1;
+    background-color:#DAA520; 
+}
+
